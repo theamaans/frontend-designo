@@ -1,0 +1,69 @@
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleUp, faShareNodes } from "@fortawesome/free-solid-svg-icons";
+
+const HomeFooter = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  // Function to handle scrolling to the top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // This ensures the scroll happens smoothly
+    });
+  };
+
+  return (
+<div data-scroll-section>
+  <div className="w-full bg-black flex flex-col justify-between min-h-screen">
+    {/* Main content */}
+    <div className="flex flex-col justify-center items-center py-12">
+      <p className="text-xl uppercase font-semibold text-[#444] mb-5">
+        Exploring our world of visual and interactive design
+      </p>
+      <div className="flex justify-center items-center mb-10">
+        <div className="text-[25vh] flex space-x-1 text-white">
+          {["O", "U", "R", "-", "S", "T", "U", "D", "I", "O"].map(
+            (letter, index) => (
+              <span
+                key={index}
+                className="cursor-pointer transform tracking-tighter transition-all duration-300 ease-in-out hover:translate-y-5 hover:scale-y-150"
+              >
+                {letter}
+              </span>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+    {/* Footer */}
+    <div
+  className="w-full p-5 text-white flex justify-between items-center bg-black relative z-10"
+>
+  <button
+    className="relative font-semibold cursor-pointer overflow-hidden h-[40px] w-[200px] flex justify-center items-center"
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  >
+    Back to Top
+  </button>
+  <h2 className="text-lg font-bold flex items-center">Follow Us</h2>
+</div>
+
+  </div>
+</div>
+
+  );
+};
+
+export default HomeFooter;
+
+
+
+
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+
+
+
+<FontAwesomeIcon icon={faAngleUp} style={{ color: '#ffffff' }} />
