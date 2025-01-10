@@ -2,6 +2,11 @@
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
   import LocomotiveScroll from "locomotive-scroll";
+  import Arch1 from 'src/assets/Arch1.jpg';
+import Arch2 from 'src/assets/Arch2.jpg';
+import Arch3 from 'src/assets/Arch3.jpg';
+import Arch4 from 'src/assets/Arch4.jpg';
+
 
 
   const Arc_Section1 = () => {
@@ -81,43 +86,59 @@
           onWheel={handleWheel}
         >
           <div className="arc-section1-scroll-content">
-            <div
-              className="arc-section1-card card-1"
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            ></div>
+          <div
+  className="arc-section1-card card-1"
+  style={{ backgroundImage: `url(${Arch1})` }}
+  onMouseEnter={() => setIsHovered(true)}
+  onMouseLeave={() => setIsHovered(false)}
+></div>
+
             <div
               className="arc-section1-card card-2"
+  style={{ backgroundImage: `url(${Arch2})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-3"
+  style={{ backgroundImage: `url(${Arch3})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-4"
+  style={{ backgroundImage: `url(${Arch4})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-5"
+  style={{ backgroundImage: `url(${Arch1})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-6"
+  style={{ backgroundImage: `url(${Arch2})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-7"
+  style={{ backgroundImage: `url(${Arch3})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
             <div
               className="arc-section1-card card-8"
+  style={{ backgroundImage: `url(${Arch4})` }}
+
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             ></div>
