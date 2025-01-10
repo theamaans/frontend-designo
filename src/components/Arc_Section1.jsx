@@ -2,10 +2,10 @@
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
   import LocomotiveScroll from "locomotive-scroll";
-  import Arch1 from 'src/assets/Arch1.jpg';
-import Arch2 from 'src/assets/Arch2.jpg';
-import Arch3 from 'src/assets/Arch3.jpg';
-import Arch4 from 'src/assets/Arch4.jpg';
+  import Arch1 from '../assets/Arch1.jpg';
+import Arch2 from '../assets/Arch2.jpg';
+import Arch3 from '../assets/Arch3.jpg';
+import Arch4 from '../assets/Arch4.jpg';
 
 
 
