@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 import NavMenu from './NavMenu';
+import logo1 from '../assets/logo1.png';
+
 
 
 const Navbar = () => {
@@ -30,7 +32,7 @@ const Navbar = () => {
       <div className="navbar">
         <div>
           <img
-            src="src/assets/logo1.png"
+            src={logo1}
             alt="Logo"
             onClick={redirectToHome}
             className="logo"
