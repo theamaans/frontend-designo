@@ -23,8 +23,7 @@ const StoriesPag1 = () => {
         {/* Page Numbers */}
         <div className="page-numbers">
           <span>1</span>
-          <span className="separator">-</span>
-          <span>2</span>
+   
         </div>
 
         {/* Right Arrow */}

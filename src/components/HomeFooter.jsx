@@ -24,8 +24,9 @@ const HomeFooter = () => {
       </div>
 
       <div className="footer-bottom">
-        {/* Back to Top Button */}
-        <button
+       <div className="btn-footer">
+         {/* Back to Top Button */}
+         <button
           className="footer-button"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} // Default smooth scroll
           onMouseEnter={() => setIsHovered(true)}
@@ -48,6 +49,7 @@ const HomeFooter = () => {
             back to top
           </span>
         </button>
+       </div>
 
         {/* Follow Us Section */}
         <div
@@ -73,9 +75,10 @@ const HomeFooter = () => {
             <a href="#">Db</a>
             <a href="#">Tw</a>
           </div>
-        </div>
 
+        </div>
         <h2 className="footer-copyright">2024 © All rights reserved.</h2>
+
       </div>
     </div>
   );
