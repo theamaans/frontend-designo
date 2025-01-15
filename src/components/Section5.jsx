@@ -12,10 +12,7 @@ const Section5 = () => {
 
   return (
     <AnimatedSection prevInView={prevInView} onInView={handleInView}>
-      <div className="section section5"
-      style={{ backgroundImage: `url(${Section5image})` }} // Corrected background image reference
-      
-      >
+      <div className="section section5">
         <div className="content">
           <h3 className="year">2024</h3>
           <h1 className="title">Social media management</h1>
