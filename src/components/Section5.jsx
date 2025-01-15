@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import AnimatedSection from './AnimatedSection';
+import Section5image from '../assets/Section5image.jpg';
+
 
 const Section5 = () => {
   const [prevInView, setPrevInView] = useState(false);
@@ -10,7 +12,10 @@ const Section5 = () => {
 
   return (
     <AnimatedSection prevInView={prevInView} onInView={handleInView}>
-      <div className="section section5">
+      <div className="section section5"
+      style={{ backgroundImage: `url(${Section5image})` }} // Corrected background image reference
+      
+      >
         <div className="content">
           <h3 className="year">2024</h3>
           <h1 className="title">Social media management</h1>

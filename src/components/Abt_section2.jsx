@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+
 const Abt_Section2 = () => {
   useEffect(() => {
     const heroSection = document.querySelector('.hero-section'); 
