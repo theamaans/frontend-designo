@@ -12,7 +12,7 @@ const Section4 = () => {
 
   return (
     <AnimatedSection prevInView={prevInView} onInView={handleInView}>
-      <div className="section section4">
+      <div className="section section4" style={{ backgroundImage: `url(${Section4image})` }}>
         <div className="content">
           <h3 className="year">2024</h3>
           <h1 className="title">SEO optimization</h1>
